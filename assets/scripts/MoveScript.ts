@@ -8,29 +8,29 @@
 //  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
 //  - [English] http://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 
-const {ccclass, property} = cc._decorator;
+const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class Mover extends cc.Component {
 
-    @property(cc.Label)
-    label: cc.Label = null;
+  @property(cc.Label)
+  label: cc.Label = null;
 
-    @property
-    speed: number = 100;
+  @property
+  speed: number = 100;
 
-    // LIFE-CYCLE CALLBACKS:
+  // LIFE-CYCLE CALLBACKS:
 
-    // onLoad () {}
+  // onLoad () {}
 
-    start () {
+  start() {
 
-    }
+  }
 
-    update (dt) {
-        
-        this.node.setPositionX(this.node.position.x -= this.speed * dt);
-        if(this.node.position.x < -(this.node.parent.width/2) - this.node.width/2)
-            this.node.setPositionX(this.node.parent.width/2 + this.node.width/2);
-    } 
+  update(dt) {
+
+    this.node.setPositionX(this.node.position.x -= this.speed * dt);
+    if (this.node.position.x < -(this.node.parent.width / 2) - this.node.width / 2)
+      this.node.setPositionX(this.node.parent.width / 2 + this.node.width / 2);
+  }
 }
