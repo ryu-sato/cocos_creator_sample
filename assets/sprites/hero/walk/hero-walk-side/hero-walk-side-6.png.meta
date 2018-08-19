@@ -1,0 +1,30 @@
+{
+  "ver": "2.0.0",
+  "uuid": "b64ebfce-1df5-404b-89dd-f323ebed89fd",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "hero-walk-side-6": {
+      "ver": "1.0.3",
+      "uuid": "b180f493-97c1-4ab7-813b-de11a96c4708",
+      "rawTextureUuid": "b64ebfce-1df5-404b-89dd-f323ebed89fd",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -2.5,
+      "trimX": 9,
+      "trimY": 8,
+      "width": 14,
+      "height": 21,
+      "rawWidth": 32,
+      "rawHeight": 32,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
